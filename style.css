@@ -1,10 +1,9 @@
-.center{
+/*Centrare immagine e titolo*/
+#center{
+    display:block;
+    margin:0px auto;
+    text-align:center;
     background-color: lightgrey;
-    border-style: normal;
-    border-bottom: 10px normal orange;
-    padding: 0% 20% 0% 20%;
-    margin: 0% 25% 0% 25%;
-    resize:vertical;
 }
 
 h1{text-align: center;}
@@ -15,8 +14,11 @@ h3 {font-style: italic;}
 
 hr{color: orange;}
 
-#corpo{text-align: center;}
+#corpo{text-align: left;
+resize: both;
+overflow: auto;}
 
-#fine{text-align: center;}
+#fine{text-align: center;
+    resize: both;
+overflow: auto;}
 
-#corpo {resize: vertical;}
