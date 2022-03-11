@@ -1,7 +1,7 @@
 /*Centrare immagine e titolo*/
 #center{
     display:block;
-    margin:0px auto;
+    margin: 0px auto;
     text-align:center;
     background-color: lightgrey;
 }
@@ -15,10 +15,12 @@ h3 {font-style: italic;}
 hr{color: orange;}
 
 #corpo{text-align: left;
-resize: both;
-overflow: auto;}
+width: 100%;
+height: auto;
+margin: auto;}
 
 #fine{text-align: center;
-    resize: both;
-overflow: auto;}
+width: 100%;
+height: auto;
+margin: auto;}
 
